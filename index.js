@@ -22,3 +22,7 @@ function johnLennonFacts(facts) {
 }
 johnLennonFacts(facts)
 
+function iLoveTheBeatles(n) {
+  var newArray = []
+  
+}
