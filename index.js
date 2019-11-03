@@ -24,7 +24,7 @@ var johnLennonFacts = function(facts) {
 johnLennonFacts(facts)
 
 
-function iLoveTheBeatles(n) {
+var iLoveTheBeatles=function(n) {
   var newArray = []
   do {
     newArray.push("I love the Beatles!");
@@ -32,4 +32,3 @@ function iLoveTheBeatles(n) {
   } while (n<15)
   return newArray
 }
-iLoveTheBeatles(12)
