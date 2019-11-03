@@ -23,6 +23,7 @@ var johnLennonFacts = function(facts) {
 johnLennonFacts(facts)
 
 let n
+iLoveTheBeatles();
 
 function iLoveTheBeatles(n) {
   var newArray = []
