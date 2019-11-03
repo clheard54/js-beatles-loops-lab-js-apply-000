@@ -7,7 +7,10 @@ function theBeatlesPlay(musicians, instruments) {
   for (let counter = 0; counter < 4; counter++) {
     whatTheyPlay.push("${musicians[counter]} plays ${instruments[counter]}")
   }
+  return whatTheyPlay;
 }
+theBeatlesPlay(musicians,instruments)
+
 
 function johnLennonFacts(facts) {
   var counter = 0
@@ -17,3 +20,5 @@ function johnLennonFacts(facts) {
   }
   return facts
 }
+johnLennonFacts(facts)
+
