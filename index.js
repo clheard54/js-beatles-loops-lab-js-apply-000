@@ -17,4 +17,5 @@ johnLennonFacts(facts) {
     johnLennonFacts[counter]=johnLennonFacts[counter]+"!!!";
     counter++
   }
+  return facts
 }
