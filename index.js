@@ -21,13 +21,14 @@ var johnLennonFacts = function(facts) {
 }
 johnLennonFacts(facts)
 
+let n
 
 var iLoveTheBeatles = function(n) {
   var newArray = []
   do {
     newArray.push("I love the Beatles!");
     n++;
-  } while n<15
+  } while (n<15)
   return newArray
 }
 
