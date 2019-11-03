@@ -3,21 +3,21 @@ var whatTheyPlay = []
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
   const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
   
-function theBeatlesPlay(musicians, instruments) {
+var theBeatlesPlay=function(musicians, instruments) {
   for (let counter = 0; counter < 4; counter++) {
-    whatTheyPlay.push("${musicians[counter]} plays ${instruments[counter]}");
+    whatTheyPlay.push(`${musicians[counter]} plays ${instruments[counter]}`);
     return whatTheyPlay;
   }
 }
 theBeatlesPlay(musicians,instruments)
 
+let facts
 
-
-function johnLennonFacts(facts) {
-  var counter = 0
-  while (counter<johonLennonFacts.length) {
-    johnLennonFacts[counter]=johnLennonFacts[counter]+"!!!";
-    counter++
+var johnLennonFacts = function(facts) {
+  var i = 0
+  while (i<facts.length) {
+    facts[i]= `${facts[i]}!!!`;
+    i++
   }
   return facts
 }
