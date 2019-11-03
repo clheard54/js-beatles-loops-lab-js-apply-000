@@ -14,6 +14,7 @@ function
 johnLennonFacts(facts) {
   var counter = 0
   while (counter<johonLennonFacts.length) {
-    johnLennonFacts[counter]=johnLennonFacts[counter]+"!!!"
+    johnLennonFacts[counter]=johnLennonFacts[counter]+"!!!";
+    counter++
   }
 }
