@@ -32,4 +32,5 @@ var iLoveTheBeatles = function(n) {
   } while (n<15);
   return newArray
 }
+iLoveTheaBeatles(12)
 
