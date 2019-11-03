@@ -7,6 +7,7 @@ var theBeatlesPlay=function(musicians, instruments) {
   for (let counter = 0; counter < 4; counter++) {
     whatTheyPlay.push(`${musicians[counter]} plays ${instruments[counter]}`);
   }
+  return whatTheyPlay;
 }
 
 let facts
