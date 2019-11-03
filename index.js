@@ -31,3 +31,4 @@ function iLoveTheBeatles(n) {
   } while (n<15)
   return newArray
 }
+iLoveTheBeatles(12)
