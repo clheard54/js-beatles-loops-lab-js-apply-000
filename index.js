@@ -6,8 +6,8 @@ const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo St
 var theBeatlesPlay=function(musicians, instruments) {
   for (let counter = 0; counter < 4; counter++) {
     whatTheyPlay.push(`${musicians[counter]} plays ${instruments[counter]}`);
-    return whatTheyPlay;
   }
+  return whatTheyPlay;
 }
 theBeatlesPlay(musicians,instruments)
 
@@ -24,7 +24,7 @@ var johnLennonFacts = function(facts) {
 johnLennonFacts(facts)
 
 
-var iLoveTheBeatles=function(n) {
+var iLoveTheBeatles = function(n) {
   var newArray = []
   do {
     newArray.push("I love the Beatles!");
@@ -32,3 +32,4 @@ var iLoveTheBeatles=function(n) {
   } while (n<15)
   return newArray
 }
+
